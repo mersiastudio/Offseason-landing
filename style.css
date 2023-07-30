@@ -147,8 +147,15 @@ button:hover {
 }
 
 @media screen and (max-width: 670px) {
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
   .container {
     gap: 32px;
+    height: 500px;
   }
   .container h1 {
     font-size: 36px;
