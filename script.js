@@ -1,3 +1,13 @@
+// VIEWPORT HEIGHT
+const documentHeight = () => {
+  const doc = document.documentElement;
+  doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
+};
+
+window.addEventListener("resize", documentHeight);
+documentHeight();
+
+//  ANIMATION TEXT
 // Wait for the DOM to be loaded
 document.addEventListener("DOMContentLoaded", function () {
   // Words to be displayed one at a time
