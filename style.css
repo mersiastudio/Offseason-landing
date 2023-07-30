@@ -16,11 +16,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  height: 100vh;
 }
 
 .container {
-  height: 100vh;
   max-width: 1584px;
   margin: 0 auto;
   display: flex;
@@ -148,14 +147,10 @@ button:hover {
 
 @media screen and (max-width: 670px) {
   .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    height: 500px;
   }
   .container {
     gap: 32px;
-    height: 500px;
   }
   .container h1 {
     font-size: 36px;
