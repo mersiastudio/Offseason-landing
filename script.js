@@ -1,7 +1,7 @@
 // Wait for the DOM to be loaded
 document.addEventListener("DOMContentLoaded", function () {
   // Words to be displayed one at a time
-  const words = ["Perfected", "Simplified", "Elevated"];
+  const words = ["Perfected.", "Simplified.", "Elevated."];
 
   // Initialize Typed.js
   const typed = new Typed(".type-text", {
