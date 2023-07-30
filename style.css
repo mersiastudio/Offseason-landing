@@ -147,7 +147,7 @@ button:hover {
 
 @media screen and (max-width: 670px) {
   .wrapper {
-    height: auto;
+    height: fit-content;
   }
   .container {
     gap: 32px;
